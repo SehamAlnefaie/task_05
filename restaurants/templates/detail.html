@@ -5,6 +5,11 @@
         <title>Detail</title>
     </head>
     <body>
-        
+       <h1>{{restaurant.name}} </h1> 
+<p> {{restaurant.description}} 
+{{restaurant.opening_time }}
+    {{restaurant.closing_time}}</p>
+
+<a href= "{% url 'restaurant-list' %}"> Back
     </body>
 </html>
